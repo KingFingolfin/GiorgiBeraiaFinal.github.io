@@ -1,0 +1,377 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+@font-face {
+    font-family: plight;
+    src: url(../unicornfont/SourceSansPro-Light.ttf);
+}
+@font-face {
+    font-family: pregular;
+    src: url(../unicornfont/SourceSansPro-Regular.ttf);
+}
+@font-face {
+    font-family: psemibold;
+    src: url(../unicornfont/SourceSansPro-SemiBold.ttf);
+}
+.backgroundImg{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../images/headerImg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    height: 113px;
+    background-color: #2121217e;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header h4{
+    font-family: plight;
+    font-size: 18px;
+}
+header h4 a:hover{
+    color: white;
+    background-color: #999999;
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    padding-right: 30px;
+    font-family: plight;
+    list-style: none;
+}
+header ul li a:hover{
+    color: white;
+    background-color: #999999;
+}
+.headerText{
+    margin-top: 323px;
+    margin-left: auto;
+    margin-right: 5%;
+    height: 356px;
+    width: 570px;
+}
+.headerText h2{
+    text-align: right;
+    font-size: 72px;
+    font-family: plight;
+}
+.headerText p{  
+    text-align: right;
+    font-size: 18px;
+    font-family: pregular;
+}
+.headerButton{
+    margin-top: 33px;
+    margin-left: auto;
+    height: 58px;
+    width: 272px;
+    border: 3px solid black;
+}
+.headerButton:hover{
+    border: 3px solid rgba(87, 85, 85, 0.685);
+}
+.headerButton p{
+    text-align: center;
+}
+.section1{
+    padding-top: 100px;
+    text-align: center;
+}
+.section1 img{
+    margin: auto;
+}
+.section1 p{
+    padding-top: 20px;
+    margin: auto;
+    width: 970px;
+    font-size: 16px;
+    font-family: pregular;
+}
+.section1 h3{
+    font-size: 27px;
+    font-family: plight;
+}
+.section2{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    height: 374px;
+    background-color: #EFEFEF;
+    font-family: pregular;
+    font-size: 16px;
+}
+
+.section2 div h2{
+    font-size: 18px;
+}
+.section2 div{
+    width: 271px;
+}
+.section2 div img{
+    padding-top: 81px;
+}
+.section3{
+    padding-top: 100px;
+    text-align: center;
+    font-family: pregular;
+}
+.section3 h2{
+    font-size: 27px;
+}
+.sec3blocks{
+    text-align:left;
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec3blocks div{
+    height: 368px;
+    width: 368px;
+    background-color: #222222;
+    color: white;
+}
+.sec3blocks div img{
+    visibility: hidden;
+}
+.sec3blocks div:hover img{
+    visibility:visible;
+}
+.sec3blocks div p.firstP{
+    padding-top: 62.8px;
+}
+.sec3blocks p{
+    padding-left: 38.8px;
+}
+.sec3blocks img{
+    display: block;
+    margin: auto;
+}
+.sec3blocks div h3{
+    font-size: 24px;
+    width: 291px;
+    padding-bottom: 78px;
+    padding-left: 38.8px;
+}
+.section4{
+    margin-top: 149px;
+    height: 367px;
+    background-color: #EFEFEF;
+    text-align: center;
+    font-family: plight;
+    font-size: 24px;
+}
+.section4 h3{
+    padding-top: 59px;
+    padding-bottom: 61px;
+}
+.section5{
+    font-family: pregular;
+    margin-top: 100px;
+    height: 658.22px;
+    text-align: center;
+}
+.section5 h3{
+    font-size: 27px;
+}
+#sec5Line{
+    padding-top: 27px;
+}
+.section5 ul{
+    padding-top: 26px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.section5 ul li{
+    padding-right: 40px;
+}
+.section5 ul li a:hover{
+    text-decoration-line: overline;
+    text-decoration-color: tomato;
+}
+.section5 div{
+    margin-top: 71px;
+    display: flex;
+    justify-content: center;
+}
+.section6{
+    text-align: center;
+    font-family: pregular;
+    font-size: 20px;
+    color: white;
+    height: 309px;
+    background-color: #212121;
+}
+#sec6P{
+    padding-top: 115px;
+    padding-bottom: 30px;
+}
+.section7{
+    text-align: center;
+    margin-top: 100px;
+    font-family: pregular;
+}
+.section7 h3{
+    font-family: plight;
+    font-size: 27px;
+}
+#sec7Div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#sec7firstP{
+    padding-top: 50px;
+    padding-bottom: 70px;
+} 
+.section8{
+    color: white;
+    font-family: pregular;
+    font-size: 24px;
+    height: 702px;
+    background-image: url(../images/Layer\ 13\ Image.png);
+    background-size: cover;
+    text-align: center;
+}
+.section8 h3{
+    padding-top: 106px;
+    padding-bottom: 30px;
+    font-size: 27px;
+}
+.sec8Div p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.Ptxt:hover{
+    font-size: 27px;
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: tomato;
+}
+.sec8Div{
+    margin: auto;
+    height: 353px;
+    width: 830px;
+    background-color: rgba(255, 255, 255, 0.466);
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec8Div div{
+    height: 130px;
+    width: 370px;
+}
+.Pnum{
+    padding-top: 50px;
+    font-size: 27px;
+}
+.section9{
+    margin-top: 111px;
+    font-family: pregular;
+}
+.sec9Div{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.sec9Div div{
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 431px;
+    text-align: center;
+}
+.sec9Div h3{
+    font-size: 24px;
+}
+.section10{
+    height: 217px;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+}
+.section10 p{
+    color: #555555;
+    font-family: plight;
+    font-size: 14px;
+}
+.section10 h3{
+    font-family: plight;
+    font-size: 18px;
+}
+.sec10Div{
+    margin-top: 70px;
+    height: 79px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+.sec10Div img{
+    margin-right: 20px;
+}
+footer{
+    height: 600px;
+    background-color: #212121;
+}
+.unicorn{
+    padding-right: 500px;
+    padding-top: 67px;
+    font-family: pregular;
+    font-size: 14px;
+    color: #999999;
+}
+.unicorn h2{
+    font-family: plight;
+    padding-bottom: 25px;
+    color: white;
+    font-size: 22px;
+}
+.unicorn h3{
+    margin-bottom: 0px;
+    width: 100px;
+}
+.unicorn h3:hover{
+    color: white;
+}
+.unicornDiv{
+    display: flex;
+}
+.unicornDiv div{
+    padding-right: 30px;
+}
+#send{
+    margin-top: 100px ;
+}
+#lastP{
+    color: #999999 ;
+}
+.social{
+    width: 50px;
+    padding-top: 67px;
+    font-family: plight;
+    color: white;
+    font-size: 16px;
+}
+.social a{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 14px;
+    color: #999999;
+}
+.social a:hover{
+    color: white;
+}
+.flex{
+    display: flex;
+}
+.paddingclass{
+    width: 1170px;
+    margin: auto;
+}
